@@ -1,0 +1,43 @@
+{
+    "name": "DonateHub – Transparent Donations",
+    "short_name": "DonateHub",
+    "description": "A secure and transparent donation platform connecting donors with verified charities.",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#0c4a6e",
+    "theme_color": "#0284c7",
+    "orientation": "portrait-primary",
+    "lang": "en",
+    "icons": [
+        {
+            "src": "icons/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ],
+    "screenshots": [],
+    "categories": ["social", "finance", "lifestyle"],
+    "shortcuts": [
+        {
+            "name": "Explore Charities",
+            "short_name": "Explore",
+            "description": "Browse verified charities",
+            "url": "./index.html#explore",
+            "icons": [{ "src": "icons/icon-96.png", "sizes": "96x96" }]
+        },
+        {
+            "name": "My Dashboard",
+            "short_name": "Dashboard",
+            "description": "Track your donations",
+            "url": "./index.html#dashboard",
+            "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+        }
+    ]
+}
